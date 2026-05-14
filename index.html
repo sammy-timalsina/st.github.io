@@ -1,282 +1,696 @@
-<!DOCTYPE HTML>
-<!--
-	samy timalsina 9/18/2023
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samy Timalsina | Controls & Software Engineer</title>
+    <meta name="description" content="Controls & Software Engineer with 6+ years architecting ML-driven industrial automation for an ISO 13485 / FDA-registered manufacturer — PLC, YOLO/ONNX vision, and Azure cloud." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+</head>
+<body>
 
-<html>
-	<head>
-		<title>Sammy's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!-- ========== NAV ========== -->
+<nav id="navbar">
+    <div class="nav-wrap">
+        <a href="#hero" class="nav-logo">
+            <span class="logo-mark">ST</span>
+            <span class="logo-name">Samy Timalsina</span>
+        </a>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="#about"      class="nav-link">About</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#skills"     class="nav-link">Skills</a></li>
+            <li><a href="#projects"   class="nav-link">Projects</a></li>
+            <li><a href="#contact"    class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="https://www.linkedin.com/in/samy-timalsina-095778116/" target="_blank" class="nav-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/sammy-timalsina" target="_blank" class="nav-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="assets/SamysUpdatedResume.pdf" target="_blank" class="btn btn-primary btn-sm">Resume</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<!-- ========== HERO ========== -->
+<section id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-glow hero-glow-3"></div>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Sammy's Portfolio</h1>
-						<p>A showcase of my projects, achievements, and abilities.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <div class="hero-inner">
+        <div class="hero-badge">
+            <span class="badge-dot"></span>
+            ISO 13485 &nbsp;·&nbsp; FDA-Registered Manufacturing &nbsp;·&nbsp; FE Engineer Trainee
+        </div>
+        <h1 class="hero-name">Samy Timalsina</h1>
+        <div class="hero-sub">
+            <span>I engineer&nbsp;</span>
+            <span class="typed" id="typewriter"></span><span class="cursor">|</span>
+        </div>
+        <p class="hero-tagline">
+            Controls &amp; Software Engineer with 6+ years architecting ML-driven industrial automation —
+            Allen-Bradley / Siemens PLCs, YOLO / ONNX vision, and Azure cloud, shipping measurable
+            throughput, cost, and safety gains.
+        </p>
+        <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary"><i class="fas fa-briefcase"></i> View Projects</a>
+            <a href="assets/SamysUpdatedResume.pdf" target="_blank" class="btn btn-ghost"><i class="fas fa-file-alt"></i> Download Resume</a>
+        </div>
+        <div class="hero-pills">
+            <span class="hero-pill"><i class="fas fa-microchip"></i> Allen-Bradley · Siemens</span>
+            <span class="hero-pill"><i class="fas fa-eye"></i> YOLO · ONNX Vision</span>
+            <span class="hero-pill"><i class="fas fa-code"></i> C# · ASP.NET Core</span>
+            <span class="hero-pill"><i class="fas fa-cloud"></i> Azure Cloud</span>
+            <span class="hero-pill"><i class="fas fa-brain"></i> Machine Learning</span>
+            <span class="hero-pill"><i class="fas fa-robot"></i> UR Robots · NVIDIA GPU</span>
+        </div>
+    </div>
 
-				<!-- Header -->
-					<!-- <header id="header">
-						<a href="index.html" class="logo">Massively</a>
-					</header> -->
+    <div class="hero-scroll">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+    </div>
+</section>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Portfolio</a></li>
-							<!-- <li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li> -->
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/samy-timalsina-095778116/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						</ul>
-					</nav>
+<!-- ========== ABOUT ========== -->
+<section id="about" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">ML-Driven Automation,<br>Factory Floor to Cloud</h2>
+            <p class="section-sub">
+                Six years replacing manual labor and downtime with measurable throughput, cost, and safety gains —
+                across PLC, vision, machine learning, and cloud stacks.
+            </p>
+        </div>
 
-				<!-- Main -->
-					<div id="main">
+        <div class="about-grid">
+            <div class="about-text">
+                <p>
+                    I'm a Controls &amp; Software Engineer with 6+ years delivering end-to-end automation solutions
+                    at an ISO 13485 / FDA-registered contract manufacturer. My track record centers on shipping complete
+                    systems — from the PLC sequence and electrical panel to the ONNX inference server and Azure dashboard —
+                    that replace manual labor and recurring downtime with quantifiable gains.
+                </p>
+                <p>
+                    I work fluently across the full automation stack: Allen-Bradley ControlLogix &amp; CompactLogix
+                    (Studio 5000), Siemens TIA Portal / WinCC, ISA-88 machine architectures, Keyence / Cognex / Omron
+                    vision, YOLO / ONNX models running on NVIDIA GPUs, C# REST services on Azure, and AutoCAD Electrical
+                    schematics. Whether it's a lights-out press cell, a 99%-accurate defect detector, or an 8-second
+                    automated cycle that eliminated a full operator shift — I deliver the complete solution.
+                </p>
+                <p>
+                    Prior to Auer Precision I designed power and controls systems for induction heating equipment at Ajax
+                    Tocco Magnethermic, and hold an M.S. in Electrical &amp; Electronics Engineering (GPA 4.0) from
+                    Youngstown State University.
+                </p>
+                <div class="about-actions">
+                    <a href="https://www.linkedin.com/in/samy-timalsina-095778116/" target="_blank" class="about-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/sammy-timalsina" target="_blank" class="about-link"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="mailto:Samytimalsina.ysu@gmail.com" class="about-link"><i class="fas fa-envelope"></i> Email Me</a>
+                </div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card reveal reveal-d1">
+                    <span class="stat-n">6+</span>
+                    <span class="stat-l">Years Experience</span>
+                </div>
+                <div class="stat-card reveal reveal-d2">
+                    <span class="stat-n">9+</span>
+                    <span class="stat-l">Projects Shipped</span>
+                </div>
+                <div class="stat-card reveal reveal-d3">
+                    <span class="stat-n">99%</span>
+                    <span class="stat-l">ML Vision Accuracy</span>
+                </div>
+                <div class="stat-card reveal reveal-d4">
+                    <span class="stat-n">25 hrs</span>
+                    <span class="stat-l">Recovered / Week / Machine</span>
+                </div>
+            </div>
+        </div>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">My name is Samy Timalsina</a></h2>
-								<p>
-								    I am a dedicated software developer with a strong interest in learning, problem-solving, and advancing technological solutions. My expertise spans various design patterns, programming languages, web technologies, and vision programming.
-								    <br>
-								    <b>Design Patterns:</b> SOLID, Repository, Observer, Proxy, Composite, Adapter, Dependency Injection, MVC, MVVM
-								    <br>
-								    <b>Languages:</b> C#, C/C++, Python, PLC 61131-3, JavaScript
-								    <br>
-								    <b>Web Technologies:</b> HTML, CSS, jQuery
-								    <br>
-								    <b>Web Services:</b> REST API, Node.js, Express
-								    <br>
-								    <b>Databases:</b> MongoDB, Microsoft SQL, Cosmos DB
-								    <br>
-								    <b>Vision Programming:</b> Cognex, Keyence, Omron
-								    <br>
-								    <b>Software Development Life Cycle:</b> Waterfall, Scrum, Agile
-								    <br>
-								    I am also passionate about solving algorithmic challenges on platforms like LeetCode, where I enjoy the puzzle-solving aspect that provides a similar thrill to playing video games.
-								    <br>
-								    <img src="images/Leetcode.jpg" width="800" height="600" alt="LeetCode Challenges">
-								</p>
-																	
-								</header>
-							    <iframe id="resumeFrame" style="display:none; width: 100%; height: 1200px;"></iframe>
-								<ul >
-									<a href="#" class="button large" id="downloadButton">View My Resume</a>
-								</ul>
-							</article>
+        <div class="domains-grid">
+            <div class="domain-card dc-controls reveal reveal-d1">
+                <div class="domain-icon"><i class="fas fa-microchip"></i></div>
+                <h3>Industrial Controls</h3>
+                <p>Allen-Bradley ControlLogix &amp; CompactLogix (Studio 5000), Siemens TIA Portal / WinCC, ISA-88 architectures, FactoryTalk, RSLogix 500, HMI, SCADA, and AutoCAD Electrical panel design.</p>
+                <div class="dc-tags"><span>Studio 5000</span><span>TIA Portal</span><span>ISA-88</span><span>FactoryTalk</span></div>
+            </div>
+            <div class="domain-card dc-automation reveal reveal-d2">
+                <div class="domain-icon"><i class="fas fa-robot"></i></div>
+                <h3>Automation Systems</h3>
+                <p>Designing and commissioning complete machine cells — UR robot integration, Promess servo press, IPG laser, stepper / servo motion, vibratory feeders, and safety integration.</p>
+                <div class="dc-tags"><span>UR Robots</span><span>Promess Press</span><span>IPG Laser</span><span>Motion Control</span></div>
+            </div>
+            <div class="domain-card dc-vision reveal reveal-d3">
+                <div class="domain-icon"><i class="fas fa-eye"></i></div>
+                <h3>Computer Vision</h3>
+                <p>Deploying YOLO / ONNX defect detection on NVIDIA GPUs alongside Keyence, Cognex, Omron, and Zeiss CMM vision — inline quality inspection at production speed.</p>
+                <div class="dc-tags"><span>YOLO</span><span>ONNX</span><span>Keyence</span><span>Cognex</span><span>Omron</span></div>
+            </div>
+            <div class="domain-card dc-software reveal reveal-d4">
+                <div class="domain-icon"><i class="fas fa-code"></i></div>
+                <h3>Software Development</h3>
+                <p>Production-grade systems in C# and ASP.NET Core — REST services, Windows Services, FastAPI inference servers, real-time dashboards, T-SQL, and Razor Pages web apps.</p>
+                <div class="dc-tags"><span>C#</span><span>ASP.NET Core</span><span>FastAPI</span><span>T-SQL</span></div>
+            </div>
+            <div class="domain-card dc-cloud reveal reveal-d5">
+                <div class="domain-icon"><i class="fas fa-cloud"></i></div>
+                <h3>Azure Cloud</h3>
+                <p>Architecting cloud-connected factory solutions with Azure SQL, Blob Storage, and DevOps pipelines — bridging Ignition / PLC data to real-time cloud dashboards.</p>
+                <div class="dc-tags"><span>Azure SQL</span><span>Azure Blob</span><span>Azure DevOps</span><span>Ignition</span></div>
+            </div>
+            <div class="domain-card dc-ml reveal reveal-d6">
+                <div class="domain-icon"><i class="fas fa-brain"></i></div>
+                <h3>Machine Learning</h3>
+                <p>Shipping end-to-end ML systems: acoustic anomaly detection with ONNX + FastAPI, YOLO defect detection on RTX 3000 GPUs, and image classification pipelines for industrial sorting.</p>
+                <div class="dc-tags"><span>ONNX</span><span>YOLO</span><span>NVIDIA GPU</span><span>FastAPI</span></div>
+            </div>
+        </div>
+    </div>
+</section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<!-- <span class="date">April 24, 2017</span> -->
-										<h2><a href="#">Project 1<br />
-										Automatic Tapping System</a></h2>
-									</header>
-									<!-- <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a> -->
-									<!-- <a href="#"> -->
-								
-									<iframe src="https://1drv.ms/v/c/d73d578baf6e637c/EYWs5gdozN1IlRyYYmqNRskBhopOOIoJArjcHm1grk1nKQ?e=MU2NAj" 
-								            width="600" height="400" frameborder="0" allowfullscreen></iframe>
-									
-									<!-- </a> -->
-									<p>I developed the control system for an automatic tapping machine designed to tap bomb fuses.
-								           This project involved creating a PLC program following IEC-61131-3 standards, as well as designing a vision flow chart on the Keyence XG-X1000 to inspect each tap for defects.
-								           I also developed an HMI for user interface and control. The system achieves a 20-second cycle time, supporting high-volume production by managing the vibratory feeder, motor, spindle, and other key components.
-									</p>
-									<!-- <ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul> -->
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 24, 2017</span> -->
-										<h2><a href="#">Project 2<br />
-										Film Frame Tracking</a></h2>
-									</header>
-									<!-- <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a> -->
-									<!-- <a href="#"> -->
-								
-										<video controls width="600" height="400">
-											<source src="videos/ur_datacollection1.mp4" type="video/mp4">
-										</video>
-									
-									<!-- </a> -->
-									<p>
-										Designed and developed a software application from scratch using C# and .NET Windows Forms.
-										The application utilizes the Omron SDK .NET library to capture images from an Omron camera and communicates with a UR robot to classify stamped barcodes as good, bad, or duplicate.
-									</p>
-									<!-- <ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul> -->
-								</article>
-							
-								<article>
-									<header>
-										<!-- <span class="date">April 18, 2017</span> -->
-										<h2><a href="#">Project 3<br />
-										Coordinate measuring machine file parser</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/AgilentWebApp.jpg" alt="" /></a>
-									<p>Built an image classification pipeline model to differentiate between various types of rods for sorting purposes.
-									<br>
-									    Developed an ASP.NET MVC web application with a Bootstrap and jQuery front-end, and a C# back-end using the MVC framework and Repository pattern.
-										Integrated Azure Blob Storage to store CMM-generated reports and created a REST service in ASP.NET MVC, hosted on Azure App Service.
-									</p>
-									<!-- <ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul> -->
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 14, 2017</span> -->
-										<h2><a href="#">Project 4<br />
-										Time Tracking</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/TimeTracking.jpg" alt="" /></a>
-									<p>
-										Developed an ASP.NET Razor Pages application to track project hours.
-										The front-end utilized jQuery, HTML, CSS, and Bootstrap, while the back-end was powered by C#, ASP.NET, and an Azure SQL Database.
-									</p>
-									<!-- <ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul> -->
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 11, 2017</span> -->
-										<h2><a href="#">Project 5<br />
-										C# Laser Wrapper Service</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/laserService.jpg" alt="" /></a>
-									<p>
-										Developed a Windows service in C# to act as middleware between the programmable logic controller (PLC) and the laser marker unit.
-										This service automated the operator's GUI interface with the OEM software, reducing the risk of selecting the wrong laser controller device on the network.
-									</p>
-									<!-- <ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul> -->
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 7, 2017</span> -->
-										<h2><a href="#">Project 6<br />
-										Sahara Rest API</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/restApi.jpg" alt="" /></a>
-									<p>
-										Developed a REST API in C# using the ASP.NET Core MVC framework with the Repository pattern.
-										This API was designed to collect data from ten automated production lines. The service was hosted on Azure Cloud, with each automation line securely authenticated via Azure Active Directory.
-									</p>
-									<!-- <ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul> -->
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 22, 2017</span> -->
-										<h2><a href="#">Project 7<br />
-										 Automatic Welding System</a></h2>
-									</header>
-									<video controls width="600" height="400">
-										<source src="videos/SamysCapstoneWeldProject.mp4" type="video/mp4">
-									</video>
-									<p>
-									In my first project at Auer Precision, I developed a solution to automate the manual welding of a part. This involved designing a control system using a Keyence vision camera to verify the correct alignment of Part A and Part B before allowing the operator to proceed with welding.
-								        I programmed the PLC using structured text (C++), configured the vision system, and created the electrical schematic and design for the setup.	
-									</p>
-									
-									<!-- <ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul> -->
-								</article>
-							</section>
+<!-- ========== EXPERIENCE ========== -->
+<section id="experience" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Experience &amp; Education</span>
+            <h2 class="section-title">Career &amp; Academic Background</h2>
+        </div>
 
-						<!-- Footer -->
-							<footer>
-							
-							</footer>
+        <div class="exp-grid">
 
-					</div>
+            <div class="exp-card reveal">
+                <div class="exp-header">
+                    <div>
+                        <div class="exp-title">Software &amp; Controls Engineer</div>
+                        <div class="exp-company"><i class="fas fa-building"></i> Auer Precision &nbsp;·&nbsp; Mesa, AZ</div>
+                    </div>
+                    <span class="exp-date">Sept 2019 – Present</span>
+                </div>
+                <ul class="exp-bullets">
+                    <li><strong>ML Acoustic Anomaly Detection:</strong> shipped end-to-end ONNX + FastAPI + PLC system enabling lights-out press operation; recovered ~25 unattended production hours/week per machine.</li>
+                    <li><strong>Automated Leak Tester:</strong> designed ISA-88 PLC architecture and UR robot interface for an 8-second cycle, eliminating a dedicated 8-hour operator shift/day.</li>
+                    <li><strong>ML Vision Quality Inspection:</strong> deployed YOLO defect detection on RTX 3000 for semiconductor carriers — 99% accuracy, inference cut from seconds to milliseconds.</li>
+                    <li><strong>Automated Fuse Tapping (Defense):</strong> delivered PLC-driven tapping line with steppers and Keyence XGX vision, removing manual labor and repetitive-motion hazards.</li>
+                    <li><strong>Robotic CMM Integration:</strong> built C# service linking Zeiss CMM to UR robot for automated bin-sorting, cutting manual inspection time 60%+.</li>
+                    <li><strong>High-Speed Vision &amp; Control:</strong> integrated PLC mastic dispenser with Omron inline vision, lifting throughput 50% to 1,500 parts/hour.</li>
+                    <li><strong>Servo Press Retrofit:</strong> modernized a medical-tape line with Promess servo press, full panel rewiring, safety integration, and servo tuning in-house.</li>
+                    <li><strong>Data Integration &amp; Dashboards:</strong> built ASP.NET Core production dashboard with Ignition/PLC + Azure SQL/Blob pipelines for real-time flatness inspection.</li>
+                    <li><strong>Legacy Equipment Recovery:</strong> restored a 1973 mechanical press from original schematics by isolating a faulty NOTO timing relay, avoiding OEM dispatch fees and downtime.</li>
+                </ul>
+                <div class="exp-tags">
+                    <span>Allen-Bradley</span><span>Siemens TIA Portal</span><span>ONNX</span><span>YOLO</span>
+                    <span>C#</span><span>ASP.NET Core</span><span>Azure</span><span>UR Robots</span><span>FastAPI</span>
+                </div>
+            </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-				
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1727 W Emelita Ave<br />
-								Mesa, AZ 85202</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(234) 232-8824</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">timalsina-samy@outlook.com</a></p>
-							
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/samy-timalsina-095778116/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/sammy-timalsina" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+            <div class="exp-card reveal">
+                <div class="exp-header">
+                    <div>
+                        <div class="exp-title">Controls Engineer</div>
+                        <div class="exp-company"><i class="fas fa-building"></i> Ajax Tocco Magnethermic &nbsp;·&nbsp; Warren, OH</div>
+                    </div>
+                    <span class="exp-date">Sept 2018 – Aug 2019</span>
+                </div>
+                <ul class="exp-bullets">
+                    <li><strong>Power &amp; Controls Design:</strong> produced AutoCAD Electrical schematics and BOMs for induction heating power supplies; troubleshot 800–1200 A breakers, SCR/diode rectifiers, and IGBT inverters.</li>
+                    <li><strong>HMI &amp; PLC Programming:</strong> developed FactoryTalk View, WinCC, and TIA Portal interfaces and ladder/FBD logic for induction heating, forging, and quenching lines.</li>
+                </ul>
+                <div class="exp-tags">
+                    <span>AutoCAD Electrical</span><span>FactoryTalk</span><span>WinCC</span><span>TIA Portal</span><span>Ladder Logic</span>
+                </div>
+            </div>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+            <div class="exp-card reveal">
+                <div class="exp-header">
+                    <div>
+                        <div class="exp-title">Graduate Assistant</div>
+                        <div class="exp-company"><i class="fas fa-university"></i> Youngstown State University &nbsp;·&nbsp; Youngstown, OH</div>
+                    </div>
+                    <span class="exp-date">Aug 2016 – Aug 2018</span>
+                </div>
+                <ul class="exp-bullets">
+                    <li><strong>Lab Instructor:</strong> taught Control Systems (16 seniors) and Digital Circuits (16 sophomores).</li>
+                    <li><strong>Research Assistant:</strong> applied nonlinear MATLAB analysis to detect agglomeration in boiler furnaces (M.S. thesis).</li>
+                </ul>
+                <div class="exp-tags">
+                    <span>Control Systems</span><span>MATLAB</span><span>Research</span>
+                </div>
+            </div>
+        </div>
 
-			</div>
+        <!-- Education -->
+        <div class="edu-header">
+            <i class="fas fa-graduation-cap"></i> Education
+        </div>
+        <div class="edu-grid">
+            <div class="edu-card reveal reveal-d1">
+                <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="edu-degree">M.S. Electrical &amp; Electronics Engineering</div>
+                <div class="edu-school">Youngstown State University, OH</div>
+                <div class="edu-school" style="font-size:12px;color:var(--text-3);font-style:italic;">Rayen College of Engineering (ABET) · Thesis: Detection of agglomeration in a fluidized bed using structure-function</div>
+                <div class="edu-meta">
+                    <span class="edu-gpa">GPA 4.0</span>
+                    <span class="edu-year">2016 – 2018</span>
+                </div>
+            </div>
+            <div class="edu-card reveal reveal-d2">
+                <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="edu-degree">B.E. Electrical Engineering</div>
+                <div class="edu-school">Tribhuvan University, Nepal</div>
+                <div class="edu-meta">
+                    <span class="edu-gpa">GPA 3.77</span>
+                    <span class="edu-year">2009 – 2013</span>
+                </div>
+            </div>
+        </div>
 
-		<!-- Scripts -->
-		<script>
-			// Get references to the button and iframe
-			const downloadButton = document.getElementById('downloadButton');
-			const resumeFrame = document.getElementById('resumeFrame');
-	
-			// Add a click event listener to the button
-			downloadButton.addEventListener('click', function (e) {
-				e.preventDefault(); // Prevent the default link behavior
-				
-				// Set the source of the iframe to your resume file
-				resumeFrame.src = 'assets/SamysUpdatedResume.pdf';
-				
-				// Display the iframe
-				resumeFrame.style.display = 'block';
-				
-				// Hide the download button if needed
-				downloadButton.style.display = 'none';
-			});
-		</script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+        <div class="license-bar reveal">
+            <i class="fas fa-certificate"></i>
+            <strong>FE Engineer Trainee</strong> &nbsp;·&nbsp; NCEES ID 18-708-69 &nbsp;·&nbsp; May 2018 – Present
+        </div>
+    </div>
+</section>
 
-	</body>
+<!-- ========== SKILLS ========== -->
+<section id="skills" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Technical Skills</span>
+            <h2 class="section-title">Full-Stack Automation Expertise</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-group reveal reveal-d1">
+                <div class="skill-group-hd"><i class="fas fa-microchip"></i><h3>Controls / PLC</h3></div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Allen-Bradley ControlLogix</span>
+                    <span class="skill-tag">Allen-Bradley CompactLogix</span>
+                    <span class="skill-tag">Studio 5000</span>
+                    <span class="skill-tag">RSLogix 500</span>
+                    <span class="skill-tag">Siemens TIA Portal</span>
+                    <span class="skill-tag">WinCC</span>
+                    <span class="skill-tag">FactoryTalk</span>
+                    <span class="skill-tag">ISA-88</span>
+                    <span class="skill-tag">Micro 820</span>
+                    <span class="skill-tag">Structured Text</span>
+                    <span class="skill-tag">Ladder Logic</span>
+                    <span class="skill-tag">Function Block</span>
+                    <span class="skill-tag">HMI Design</span>
+                    <span class="skill-tag">SCADA</span>
+                </div>
+            </div>
+            <div class="skill-group reveal reveal-d2">
+                <div class="skill-group-hd"><i class="fas fa-eye"></i><h3>ML / Vision</h3></div>
+                <div class="skill-tags">
+                    <span class="skill-tag">ONNX</span>
+                    <span class="skill-tag">YOLO</span>
+                    <span class="skill-tag">NVIDIA Cosmos Reason 2</span>
+                    <span class="skill-tag">Cognex</span>
+                    <span class="skill-tag">Keyence</span>
+                    <span class="skill-tag">Omron Vision</span>
+                    <span class="skill-tag">Zeiss CMM</span>
+                    <span class="skill-tag">FastAPI (inference)</span>
+                    <span class="skill-tag">Defect Detection</span>
+                    <span class="skill-tag">Acoustic Anomaly Detection</span>
+                </div>
+            </div>
+            <div class="skill-group reveal reveal-d3">
+                <div class="skill-group-hd"><i class="fas fa-code"></i><h3>Software / Cloud</h3></div>
+                <div class="skill-tags">
+                    <span class="skill-tag">C#</span>
+                    <span class="skill-tag">ASP.NET Core</span>
+                    <span class="skill-tag">T-SQL</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">HTML / CSS</span>
+                    <span class="skill-tag">Azure SQL</span>
+                    <span class="skill-tag">Azure Blob Storage</span>
+                    <span class="skill-tag">Azure DevOps</span>
+                    <span class="skill-tag">SSMS</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Visual Studio</span>
+                </div>
+            </div>
+            <div class="skill-group reveal reveal-d4">
+                <div class="skill-group-hd"><i class="fas fa-tools"></i><h3>Hardware</h3></div>
+                <div class="skill-tags">
+                    <span class="skill-tag">NVIDIA GPUs (RTX 3000)</span>
+                    <span class="skill-tag">Raspberry Pi</span>
+                    <span class="skill-tag">UR Robots</span>
+                    <span class="skill-tag">Promess Servo Press</span>
+                    <span class="skill-tag">IPG Laser</span>
+                    <span class="skill-tag">AutoCAD Electrical</span>
+                    <span class="skill-tag">SCR / IGBT Power Electronics</span>
+                </div>
+            </div>
+            <div class="skill-group reveal reveal-d5">
+                <div class="skill-group-hd"><i class="fas fa-sitemap"></i><h3>Architecture &amp; Patterns</h3></div>
+                <div class="skill-tags">
+                    <span class="skill-tag">SOLID Principles</span>
+                    <span class="skill-tag">Repository Pattern</span>
+                    <span class="skill-tag">MVC / MVVM</span>
+                    <span class="skill-tag">ISA-88 Machine Control</span>
+                    <span class="skill-tag">Observer</span>
+                    <span class="skill-tag">Dependency Injection</span>
+                    <span class="skill-tag">REST API Design</span>
+                </div>
+            </div>
+            <div class="skill-group reveal reveal-d6">
+                <div class="skill-group-hd"><i class="fas fa-project-diagram"></i><h3>Process &amp; Methodology</h3></div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Agile / Scrum</span>
+                    <span class="skill-tag">ISO 13485</span>
+                    <span class="skill-tag">FDA-Regulated Env.</span>
+                    <span class="skill-tag">Electrical Panel Design</span>
+                    <span class="skill-tag">Safety Integration</span>
+                    <span class="skill-tag">Servo Tuning</span>
+                    <span class="skill-tag">AutoCAD BOMs</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== PROJECTS ========== -->
+<section id="projects" class="section section-alt">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Projects</span>
+            <h2 class="section-title">Engineering &amp; Software Portfolio</h2>
+            <p class="section-sub">Measurable results across controls, vision, ML, and cloud — from semiconductor inspection to lights-out press operation.</p>
+        </div>
+
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="controls">Controls &amp; PLC</button>
+            <button class="filter-btn" data-filter="ml">ML &amp; Vision</button>
+            <button class="filter-btn" data-filter="software">Software</button>
+            <button class="filter-btn" data-filter="cloud">Cloud</button>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- ML Acoustic Anomaly Detection -->
+            <div class="project-card reveal" data-cat="ml software">
+                <div class="proj-media proj-placeholder" style="--pc:#3b82f6;">
+                    <i class="fas fa-wave-square"></i>
+                    <span>ONNX · FastAPI · PLC</span>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-cats">
+                        <span class="proj-cat cat-m">ML</span>
+                        <span class="proj-cat cat-s">Software</span>
+                    </div>
+                    <h3 class="proj-title">ML Acoustic Anomaly Detection</h3>
+                    <p class="proj-desc">
+                        Shipped an end-to-end ONNX + FastAPI + PLC system enabling fully lights-out press operation.
+                        The ML model detects acoustic anomalies in real time, automatically stopping the press on
+                        bad cycles. Recovered <strong>~25 unattended production hours/week per machine</strong>.
+                    </p>
+                    <div class="proj-metric"><i class="fas fa-chart-line"></i> 25 hrs/week recovered per machine</div>
+                    <div class="proj-tech">
+                        <span>ONNX</span><span>FastAPI</span><span>PLC Integration</span><span>Allen-Bradley</span><span>Python</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ML Vision Quality Inspection -->
+            <div class="project-card reveal" data-cat="ml vision">
+                <div class="proj-media proj-placeholder" style="--pc:#8b5cf6;">
+                    <i class="fas fa-crosshairs"></i>
+                    <span>YOLO · RTX 3000 · Semiconductor</span>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-cats">
+                        <span class="proj-cat cat-m">ML</span>
+                        <span class="proj-cat cat-v">Vision</span>
+                    </div>
+                    <h3 class="proj-title">ML Vision Quality Inspection</h3>
+                    <p class="proj-desc">
+                        Deployed YOLO defect detection on an RTX 3000 GPU for semiconductor carrier inspection.
+                        Achieved <strong>99% detection accuracy</strong> with inference time cut from seconds to
+                        milliseconds — enabling inline, production-speed quality control.
+                    </p>
+                    <div class="proj-metric"><i class="fas fa-bullseye"></i> 99% accuracy · seconds → milliseconds inference</div>
+                    <div class="proj-tech">
+                        <span>YOLO</span><span>ONNX</span><span>NVIDIA RTX 3000</span><span>Python</span><span>FastAPI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automated Leak Tester -->
+            <div class="project-card reveal" data-cat="controls">
+                <div class="proj-media proj-placeholder" style="--pc:#10b981;">
+                    <i class="fas fa-compress-arrows-alt"></i>
+                    <span>ISA-88 · UR Robot · 8-Second Cycle</span>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-cats">
+                        <span class="proj-cat cat-c">Controls</span>
+                    </div>
+                    <h3 class="proj-title">Automated Leak Tester</h3>
+                    <p class="proj-desc">
+                        Designed ISA-88 PLC architecture and UR robot interface for an automated leak testing cell.
+                        The 8-second cycle completely eliminated a dedicated 8-hour manual operator shift per day,
+                        delivering immediate labor cost savings.
+                    </p>
+                    <div class="proj-metric"><i class="fas fa-clock"></i> 8-second cycle · eliminated 8-hour operator shift/day</div>
+                    <div class="proj-tech">
+                        <span>ISA-88</span><span>Allen-Bradley</span><span>UR Robots</span><span>Studio 5000</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automated Fuse Tapping -->
+            <div class="project-card reveal" data-cat="controls ml">
+                <div class="proj-media">
+                    <iframe src="https://1drv.ms/v/c/d73d578baf6e637c/EYWs5gdozN1IlRyYYmqNRskBhopOOIoJArjcHm1grk1nKQ?e=MU2NAj"
+                            frameborder="0" allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-cats">
+                        <span class="proj-cat cat-c">Controls</span>
+                        <span class="proj-cat cat-v">Vision</span>
+                    </div>
+                    <h3 class="proj-title">Automated Fuse Tapping (Defense)</h3>
+                    <p class="proj-desc">
+                        Delivered a PLC-driven tapping line with stepper motors and Keyence XGX vision for a defense
+                        contractor application (bomb fuses). Removed manual labor and repetitive-motion injury hazards
+                        while achieving a 20-second automated cycle.
+                    </p>
+                    <div class="proj-tech">
+                        <span>PLC IEC 61131-3</span><span>Keyence XGX</span><span>Stepper Control</span><span>HMI</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Robotic CMM Integration -->
+            <div class="project-card reveal" data-cat="software controls">
+                <div class="proj-media">
+                    <video controls preload="metadata">
+                        <source src="videos/ur_datacollection1.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-cats">
+                        <span class="proj-cat cat-s">Software</span>
+                        <span class="proj-cat cat-c">Controls</span>
+                    </div>
+                    <h3 class="proj-title">Robotic CMM Integration</h3>
+                    <p class="proj-desc">
+                        Built a C# service linking a Zeiss CMM to a UR robot for fully automated bin-sorting based
+                        on inspection results. Eliminated manual measurement and part handling, cutting inspection
+                        time by <strong>60%+</strong>.
+                    </p>
+                    <div class="proj-metric"><i class="fas fa-tachometer-alt"></i> 60%+ reduction in manual inspection time</div>
+                    <div class="proj-tech">
+                        <span>C#</span><span>Zeiss CMM</span><span>UR Robots</span><span>Omron SDK</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- High-Speed Vision & Control -->
+            <div class="project-card reveal" data-cat="ml controls">
+                <div class="proj-media proj-placeholder" style="--pc:#06b6d4;">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Omron Vision · 1,500 parts/hour</span>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-cats">
+                        <span class="proj-cat cat-v">Vision</span>
+                        <span class="proj-cat cat-c">Controls</span>
+                    </div>
+                    <h3 class="proj-title">High-Speed Vision &amp; Control</h3>
+                    <p class="proj-desc">
+                        Integrated a PLC-controlled mastic dispenser with Omron inline vision for real-time
+                        dispensing verification. Lifted production throughput by <strong>50% to 1,500 parts/hour</strong>
+                        by eliminating manual inspection bottlenecks.
+                    </p>
+                    <div class="proj-metric"><i class="fas fa-arrow-up"></i> 50% throughput increase → 1,500 parts/hour</div>
+                    <div class="proj-tech">
+                        <span>Omron Vision</span><span>PLC</span><span>Inline Inspection</span><span>Studio 5000</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Servo Press Retrofit -->
+            <div class="project-card reveal" data-cat="controls">
+                <div class="proj-media">
+                    <img src="images/laserService.jpg" alt="Servo Press Retrofit" loading="lazy" />
+                </div>
+                <div class="proj-body">
+                    <div class="proj-cats">
+                        <span class="proj-cat cat-c">Controls</span>
+                    </div>
+                    <h3 class="proj-title">Servo Press Retrofit — Medical Device</h3>
+                    <p class="proj-desc">
+                        Modernized a medical-tape production line by retrofitting a Promess servo press with full
+                        panel rewiring, safety integration per ISO 13485, and in-house servo tuning. Eliminated
+                        OEM dependency and delivered a fully documented, validated system.
+                    </p>
+                    <div class="proj-tech">
+                        <span>Promess Servo Press</span><span>Allen-Bradley</span><span>AutoCAD Electrical</span><span>ISO 13485</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Integration & Dashboards -->
+            <div class="project-card reveal" data-cat="software cloud">
+                <div class="proj-media">
+                    <img src="images/AgilentWebApp.jpg" alt="Production Dashboard" loading="lazy" />
+                </div>
+                <div class="proj-body">
+                    <div class="proj-cats">
+                        <span class="proj-cat cat-s">Software</span>
+                        <span class="proj-cat cat-cl">Cloud</span>
+                    </div>
+                    <h3 class="proj-title">Production Dashboard &amp; Data Pipeline</h3>
+                    <p class="proj-desc">
+                        Built an ASP.NET Core production dashboard consuming live Ignition / PLC data via Azure SQL
+                        and Blob Storage pipelines. Provides real-time flatness inspection results and production
+                        metrics across multiple lines.
+                    </p>
+                    <div class="proj-tech">
+                        <span>ASP.NET Core</span><span>Azure SQL</span><span>Azure Blob</span><span>Ignition</span><span>T-SQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automatic Welding System -->
+            <div class="project-card reveal" data-cat="controls ml">
+                <div class="proj-media">
+                    <video controls preload="metadata">
+                        <source src="videos/SamysCapstoneWeldProject.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-cats">
+                        <span class="proj-cat cat-c">Controls</span>
+                        <span class="proj-cat cat-v">Vision</span>
+                    </div>
+                    <h3 class="proj-title">Automatic Welding System</h3>
+                    <p class="proj-desc">
+                        Automated a manual welding process using Keyence vision to verify correct part alignment
+                        before the operator proceeds. Programmed PLC in Structured Text, designed the vision
+                        logic, and produced the full electrical schematic.
+                    </p>
+                    <div class="proj-tech">
+                        <span>PLC Structured Text</span><span>Keyence Vision</span><span>AutoCAD Electrical</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact" class="section">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Contact</span>
+            <h2 class="section-title">Let's Build Something Together</h2>
+            <p class="section-sub">Open to controls, automation, and software engineering roles. Let's connect.</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-items">
+                <div class="contact-row reveal reveal-d1">
+                    <div class="contact-ico"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <span class="contact-lbl">Email</span>
+                        <a href="mailto:Samytimalsina.ysu@gmail.com" class="contact-val">Samytimalsina.ysu@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-row reveal reveal-d2">
+                    <div class="contact-ico"><i class="fas fa-phone"></i></div>
+                    <div>
+                        <span class="contact-lbl">Phone</span>
+                        <a href="tel:2342328824" class="contact-val">234-232-8824</a>
+                    </div>
+                </div>
+                <div class="contact-row reveal reveal-d3">
+                    <div class="contact-ico"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <span class="contact-lbl">Location</span>
+                        <span class="contact-val">Mesa, AZ 85202</span>
+                    </div>
+                </div>
+                <div class="contact-socials reveal reveal-d4">
+                    <a href="https://www.linkedin.com/in/samy-timalsina-095778116/" target="_blank" class="soc-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/sammy-timalsina" target="_blank" class="soc-btn"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="assets/SamysUpdatedResume.pdf" target="_blank" class="soc-btn"><i class="fas fa-file-pdf"></i> Resume PDF</a>
+                </div>
+            </div>
+
+            <div class="contact-card reveal">
+                <h3>Open to Opportunities In:</h3>
+                <ul class="opp-list">
+                    <li><i class="fas fa-check-circle"></i> Controls &amp; Automation Engineering</li>
+                    <li><i class="fas fa-check-circle"></i> ML / Vision Systems (ONNX, YOLO)</li>
+                    <li><i class="fas fa-check-circle"></i> Software Development (C# / .NET)</li>
+                    <li><i class="fas fa-check-circle"></i> Azure Cloud &amp; Data Engineering</li>
+                    <li><i class="fas fa-check-circle"></i> Full-Stack Automation Solutions</li>
+                    <li><i class="fas fa-check-circle"></i> ISO 13485 / FDA-Regulated Manufacturing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <span class="logo-mark">ST</span>
+                <span>Samy Timalsina</span>
+            </div>
+            <p class="footer-tagline">Controls &amp; Software Engineer &nbsp;·&nbsp; ISO 13485 / FDA Manufacturing</p>
+            <nav class="footer-nav">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/samy-timalsina-095778116/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/sammy-timalsina" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="footer-copy">&copy; 2025 Samy Timalsina. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/portfolio.js"></script>
+</body>
 </html>
